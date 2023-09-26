@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario CV</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form method="post" action="#" enctype="multipart/form-data" >
+
+        
+              
+            <label for="nombre"> Nombre: </label> <br>
+            <input type="text" name="nombreUsu" id="nombre" > <br>
+    
+            <label for="apellido"> Apellido: </label> <br>
+            <input type="text" name="apellidoUsu" id="apellido" > <br>
+    
+            <label for="contraseña"> contraseña: </label> <br>
+            <input type="password" name="contra" id="contraseña" required > <br>
+    
+            <label for="dni"> Dni: </label> <br>
+            <input type="number" name="dni" id="dni" required > <br>
+           
+            <label> Sexo:</label> <br>
+            <input type="radio" name="sexo" value="Femenino" id="fem">
+            <label for="fem">Femenino</label> <br>
+    
+            <input type="radio" name="sexo" value="Masculino" id="Mas">
+            <label for="Mas">Masculino</label> <br>
+    
+            <input type="radio" name="sexo" value="Otro" id="Otro">
+            <label for="Otro">Otro</label> <br>
+
+            <label for="foto"> Incluir mi foto: </label>
+            <input type="file" name="fotoperfil" id="foto" > <br>    
+
+        <input type="checkbox" name="subs" value="Acepta" id="subs" checked>
+        <label for="subs">Suscribirme al boletin de novedades</label> <br>
+        
+
+
+        <input type="submit" name="enviarboton" value="Guardar cambios"> 
+        <input type="reset" name="resetboton" value="Borrar Los datos introducidos" >
+       
+
+    </form>
+ 
+</body>
+</html>
